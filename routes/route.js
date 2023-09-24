@@ -6,7 +6,7 @@ const router = express.Router()
 
 // home /get
 router.get('/', (req, res) => {
-    res.status(200).json({success: true, data: 'Welcome to debeemedia auth api'})
+    res.status(200).json({success: true, message: 'Welcome to debeemedia auth api'})
 })
 
 // register /post
